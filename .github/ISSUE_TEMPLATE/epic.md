@@ -1,7 +1,7 @@
 ---
 about: Criar uma Epic(grande funcionalidade do sistema)
 labels: epic
-name: 
+name: epic
 title: 
 ---
 
