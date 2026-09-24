@@ -33,7 +33,7 @@ Explique com mais detalhes o contexto da funcionalidade.
 
 ------------------------------------------------------------------------
 
-## Regras de Negócio (se houver)
+## Regras de Negócio
 
 -   Regra 1
 -   Regra 2
