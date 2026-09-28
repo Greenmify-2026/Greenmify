@@ -42,6 +42,9 @@ Explique com mais detalhes o contexto da funcionalidade.
 
 ## Definition of Done
 
--   [ ] Implementado
--   [ ] Testado
--   [ ] Documentado
+-   [ ] Funcionalidade Implementada;
+-   [ ] Código Revisado;
+-   [ ] Testes Realizados;
+-   [ ] Critérios de Aceitação Atendidos;
+-   [ ] Documentação Atualizada;
+-   [ ] Funcionalidade Validada pela Equipe.
