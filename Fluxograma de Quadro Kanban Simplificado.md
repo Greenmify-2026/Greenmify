@@ -3,15 +3,16 @@ flowchart TD
     A["1. Product Backlog"] --> B["2. Sprint Backlog"]
     B --> C["3. To Do"]
     C --> D["4. Doing"]
-    D --> E["5. Code Review"]
-    E --> F["6. Testing"]
-    F --> G["7. Homologação"]
-    G --> H["8. Deploy / Release"]
-    H --> I["9. Done"]
+    D --> E{"Bloqueado?"}
 
-    D --> J{"10. Bloqueado?"}
-    J -- Sim --> K["Blocked"]
-    K -- Desbloqueado --> D
-    J -- Não --> E
+    E -- Sim --> F["Blocked"]
+    F --> G["Desbloqueado"]
+    G --> D
+
+    E -- Não --> H["5. Code Review"]
+    H --> I["6. Testing"]
+    I --> J["7. Homologação"]
+    J --> K["8. Deploy / Release"]
+    K --> L["9. Done"]
 ```
 
