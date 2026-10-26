@@ -8,6 +8,10 @@ flowchart TD
     F --> G["7. Homologação"]
     G --> H["8. Deploy / Release"]
     H --> I["9. Done"]
-    D -.-> J["10. Blocked"]
-    J -.-> D
+
+    D --> J{"10. Bloqueado?"}
+    J -- Sim --> K["Blocked"]
+    K -- Desbloqueado --> D
+    J -- Não --> E
 ```
+
