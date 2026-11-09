@@ -1,22 +1,14 @@
-# UNIVERSIDADE CATÓLICA DE PERNAMBUCO
-
-## GRADUAÇÃO EM CIÊNCIA DA COMPUTAÇÃO
+## GRADUAÇÃO EM CIÊNCIA DA COMPUTAÇÃO - UNIVERSIDADE CATÓLICA DE PERNAMBUCO
 
 **Integrantes:**
-
 - Heitor José Gondim Brito
 - João Gabriel Gomes de Sousa
 - João Pedro Calaça Vasconcelos
 - Vitor Araújo Pacheco de Miranda
 
-# GREENMIFY
+**RECIFE - 2026**
 
-## Análise de Métricas e Desempenho do Processo
-
-**RECIFE**  
-**2026**
-
----
+# GREENMIFY - Análise de Métricas e Desempenho do Processo
 
 ## 1. Objetivo
 
