@@ -1,14 +1,10 @@
-## GRADUAÇÃO EM CIÊNCIA DA COMPUTAÇÃO - UNIVERSIDADE CATÓLICA DE PERNAMBUCO
+# GREENMIFY - Análise de Métricas e Desempenho do Processo
 
 **Integrantes:**
 - Heitor José Gondim Brito
 - João Gabriel Gomes de Sousa
 - João Pedro Calaça Vasconcelos
 - Vitor Araújo Pacheco de Miranda
-
-**RECIFE - 2026**
-
-# GREENMIFY - Análise de Métricas e Desempenho do Processo
 
 ## 1. Objetivo
 
