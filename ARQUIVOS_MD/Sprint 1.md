@@ -44,7 +44,7 @@ Desenvolver as funcionalidades básicas de cadastro e gerenciamento de produtos,
 
 ## 4. Capacidade da Sprint
 
-A equipe definiu uma capacidade de 15 Story Points para a Sprint 1. As quatro histórias selecionadas totalizam 15 pontos, estando dentro da capacidade planejada.
+A equipe definiu uma capacidade de 45 Story Points para a Sprint 1. As quatro histórias selecionadas totalizam os 45 pontos, estando dentro da capacidade planejada.
 
 ### 4.1 Histórias selecionadas
 
