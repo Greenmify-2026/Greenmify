@@ -1,210 +1,228 @@
-# GREENMIFY - Análise de Métricas e Desempenho do Processo
+# UNIVERSIDADE CATÓLICA DE PERNAMBUCO
 
-**Integrantes:**
-- Heitor José Gondim Brito
-- João Gabriel Gomes de Sousa
-- João Pedro Calaça Vasconcelos
-- Vitor Araújo Pacheco de Miranda
+## GRADUAÇÃO EM CIÊNCIA DA COMPUTAÇÃO
+
+**Autores:**
+- HEITOR JOSÉ GONDIM BRITO
+- JOÃO GABRIEL GOMES DE SOUSA
+- JOÃO PEDRO CALAÇA VASCONCELOS
+- VITOR ARAÚJO PACHECO DE MIRANDA
+
+---
+
+# GREENMIFY
+## ENTREGA 5 – MÉTRICAS E DESEMPENHO DO PROCESSO
+
+**Recife — 2026**
+
+---
+
+## Apresentação do trabalho
+
+Trabalho apresentado à disciplina de Processos e Requisitos de Software, do curso de Ciência da Computação da Universidade Católica de Pernambuco, como requisito para avaliação da disciplina.
+
+**Professora:** Ivna Cristine Brasileiro Valença
+
+**Recife — 2026**
+
+---
 
 ## 1. Objetivo
 
-Analisar o desempenho do processo de desenvolvimento do Greenmify ao longo das Sprints, utilizando métricas para acompanhar a produtividade da equipe, identificar gargalos e avaliar oportunidades de melhoria.
+Analisar o desempenho do processo de desenvolvimento do Greenmify ao longo das seis Sprints, utilizando métricas para avaliar a produtividade da equipe, identificar gargalos, observar variações no fluxo de trabalho e propor melhorias.
 
-A análise considera os dados registrados durante o desenvolvimento, como Story Points planejados e concluídos, velocity, gráficos de burndown e movimentação das tarefas no quadro Kanban. Também são avaliadas as dificuldades encontradas e as melhorias propostas ou aplicadas para tornar o processo de desenvolvimento mais organizado e eficiente.
+A análise considera principalmente a quantidade de Story Points planejados e concluídos, a velocity e os dados de Burndown de cada Sprint.
 
-## 2. Apresentação do Projeto
+## 2. Sobre o projeto
 
 O Greenmify é um marketplace digital voltado ao setor agrícola, desenvolvido com o objetivo de conectar produtores rurais e consumidores em uma plataforma para divulgação, pesquisa e comercialização de produtos e equipamentos agrícolas.
 
-O projeto foi organizado em seis épicos, contemplando funcionalidades de busca e descoberta de produtos, visualização de informações, cadastro e gerenciamento de produtos, comunicação entre consumidores e vendedores, gerenciamento de usuários e moderação da plataforma.
+O projeto possui 20 histórias de usuário organizadas em seis épicos:
 
-O desenvolvimento foi organizado por meio de Sprints, utilizando um quadro Kanban no GitHub Projects para acompanhar as histórias de usuário, distribuir as atividades e visualizar o andamento das tarefas.
+- **E01:** Busca e descoberta de produtos.
+- **E02:** Visualização e informações dos produtos.
+- **E03:** Cadastro e gerenciamento de produtos.
+- **E04:** Comunicação entre consumidor e vendedor.
+- **E05:** Gerenciamento de usuários e perfis.
+- **E06:** Moderação e segurança.
 
-## 3. Métricas Coletadas
 
-As métricas utilizadas nesta análise têm como objetivo acompanhar o andamento do desenvolvimento e comparar o planejamento com os resultados alcançados pela equipe.
+## 3. Métricas utilizadas
 
-Foram consideradas as seguintes métricas:
+Para avaliar o desempenho do processo, foram utilizadas as seguintes métricas:
 
-- **Story Points planejados:** quantidade de pontos das histórias selecionadas para cada Sprint.
-- **Story Points concluídos:** quantidade de pontos das histórias efetivamente finalizadas.
-- **Velocity:** quantidade de Story Points concluída pela equipe em cada Sprint.
-- **Burndown:** acompanhamento do trabalho restante durante a Sprint.
-- **Tarefas pendentes:** atividades selecionadas que não foram concluídas dentro da Sprint.
-- **Fluxo de trabalho:** movimentação das tarefas entre as colunas do quadro Kanban.
+- Story Points planejados;
+- Story Points concluídos;
+- Velocity;
+- Percentual de conclusão;
+- Burndown Chart.
 
-### 3.1 Dados gerais das Sprints
+## 4. Dados coletados nas Sprints
 
-Os dados de cada Sprint devem ser registrados considerando o planejamento inicial e o resultado efetivamente alcançado.
+As seis Sprints foram organizadas considerando os épicos e as histórias de usuário do Greenmify.
 
-| Informação | Sprint 1 | Sprint 2 |
-|---|---|---|
-| Período | A preencher | A preencher |
-| Story Points planejados | A preencher | A preencher |
-| Story Points concluídos | A preencher | A preencher |
-| Story Points pendentes | A preencher | A preencher |
-| Histórias concluídas | A preencher | A preencher |
-| Velocity | A preencher | A preencher |
+### 4.1 Sprint 1
 
-### 3.2 Story Points planejados e concluídos
+**Épico:** E03 – Cadastro e Gerenciamento de Produtos.
 
-Os Story Points foram utilizados para representar o esforço estimado para o desenvolvimento das histórias de usuário.
+| ID | História | Story Points | Status |
+|---|---|---:|---|
+| US07 | Cadastrar produtos agrícolas | 20 | Concluída |
+| US08 | Cadastrar equipamentos agrícolas | 20 | Concluída |
+| US09 | Editar produtos | 3 | Concluída |
+| US10 | Alterar disponibilidade dos produtos | 2 | Concluída |
+| **Total** | | **45** | |
 
-A comparação entre os pontos planejados e concluídos permite identificar se a equipe conseguiu cumprir o planejamento de cada Sprint ou se parte das atividades precisou ser adiada.
+- **Planejado:** 45 pontos.
+- **Concluído:** 45 pontos.
+- **Restante:** 0 pontos.
+- **Percentual de conclusão:** 100%.
 
-| Sprint | Planejado | Concluído | Diferença |
-|---|---:|---:|---:|
-| Sprint 1 | A preencher | A preencher | A preencher |
-| Sprint 2 | A preencher | A preencher | A preencher |
+### 4.2 Sprint 2
 
-A diferença entre os valores deve ser analisada para identificar possíveis dificuldades de planejamento, execução ou distribuição das atividades.
+**Épico:** E01 – Busca e Descoberta de Produtos.
 
-### 3.3 Análise da Velocity
+| ID | História | Story Points | Status |
+|---|---|---:|---|
+| US01 | Pesquisar produtos agrícolas | 8 | Concluída |
+| US02 | Filtrar produtos | 5 | Concluída |
+| US03 | Favoritar produtos | 3 | Concluída |
+| **Total** | | **16** | |
 
-A velocity representa a quantidade de Story Points concluída pela equipe durante uma Sprint.
+- **Planejado:** 16 pontos.
+- **Concluído:** 16 pontos.
+- **Restante:** 0 pontos.
+- **Percentual de conclusão:** 100%.
 
-Seu cálculo é realizado pela soma dos Story Points das histórias efetivamente concluídas, permitindo acompanhar a capacidade de entrega da equipe ao longo do desenvolvimento.
+### 4.3 Sprint 3
 
-**Fórmula:**
+**Épico:** E02 – Visualização e Informações dos Produtos.
 
-`Velocity = Soma dos Story Points das histórias concluídas`
+| ID | História | Story Points | Status |
+|---|---|---:|---|
+| US04 | Visualizar informações do produto | 8 | Concluída |
+| US05 | Visualizar perfil do produtor | 5 | Concluída |
+| US06 | Comparar produtos | 5 | Concluída |
+| **Total** | | **18** | |
 
-| Sprint | Velocity |
+- **Planejado:** 18 pontos.
+- **Concluído:** 18 pontos.
+- **Restante:** 0 pontos.
+- **Percentual de conclusão:** 100%.
+
+### 4.4 Sprint 4
+
+**Épico:** E04 – Comunicação entre Consumidor e Vendedor.
+
+| ID | História | Story Points | Status |
+|---|---|---:|---|
+| US11 | Entrar em contato com o produtor | 8 | Concluída |
+| US12 | Receber mensagens | 5 | Concluída |
+| US13 | Visualizar conversas | 5 | Concluída |
+| **Total** | | **18** | |
+
+- **Planejado:** 18 pontos.
+- **Concluído:** 18 pontos.
+- **Restante:** 0 pontos.
+- **Percentual de conclusão:** 100%.
+
+### 4.5 Sprint 5
+
+**Épico:** E05 – Gerenciamento de Usuários e Perfis.
+
+| ID | História | Story Points | Status |
+|---|---|---:|---|
+| US14 | Criar uma conta | 8 | Concluída |
+| US15 | Editar dados do perfil | 5 | Concluída |
+| US16 | Completar perfil de produtor | 5 | Concluída |
+| **Total** | | **18** | |
+
+- **Planejado:** 18 pontos.
+- **Concluído:** 18 pontos.
+- **Restante:** 0 pontos.
+- **Percentual de conclusão:** 100%.
+
+### 4.6 Sprint 6
+
+**Épico:** E06 – Moderação e Segurança.
+
+| ID | História | Story Points | Status |
+|---|---|---:|---|
+| US17 | Visualizar anúncios | 3 | Concluída |
+| US18 | Aprovar ou reprovar anúncios | 8 | Concluída |
+| US19 | Denunciar anúncios inadequados | 5 | Concluída |
+| US20 | Remover anúncios inadequados | 4 | Concluída |
+| **Total** | | **20** | |
+
+- **Planejado:** 20 pontos.
+- **Concluído:** 20 pontos.
+- **Restante:** 0 pontos.
+- **Percentual de conclusão:** 100%.
+
+## 5. Registro de Bugs e Mudanças de Requisitos
+
+Durante o desenvolvimento da Sprint 1, foram identificados um bug e uma necessidade de alteração nos requisitos relacionados às funcionalidades de cadastro de produtos agrícolas e equipamentos.
+
+### 5.1 BUG01 – Problema no cadastro de produtos e equipamentos
+
+- **Histórias relacionadas:** US07 e US08.
+- **Épico:** E03 – Cadastro e Gerenciamento de Produtos.
+- **Descrição:** Foi identificado um problema relacionado ao processo de cadastro de produtos agrícolas e equipamentos.
+- **Situação:** Identificado e registrado para correção.
+
+### 5.2 MUD01 – Unificação do cadastro e inclusão de unidade de medida
+
+- **Histórias relacionadas:** US07 e US08.
+- **Épico:** E03 – Cadastro e Gerenciamento de Produtos.
+- **Descrição:** Foi proposta a unificação dos cadastros de produtos agrícolas e equipamentos, mantendo os campos específicos de cada tipo. Também foi solicitada a inclusão do campo "Unidade de medida" no cadastro de produtos, permitindo opções como kg, unidade, caixa, litro e tonelada.
+- **Situação:** Mudança aceita pela equipe, com implementação planejada.
+
+## 6. Análise da Velocity
+
+A velocity foi utilizada para avaliar a quantidade de trabalho concluída em cada Sprint.
+
+### 6.1 Resultado por Sprint
+
+| Sprint | Story Points planejados | Story Points concluídos | Velocity | Conclusão |
+|---|---:|---:|---:|---:|
+| Sprint 1 | 45 | 45 | 45 | 100% |
+| Sprint 2 | 16 | 16 | 16 | 100% |
+| Sprint 3 | 18 | 18 | 18 | 100% |
+| Sprint 4 | 18 | 18 | 18 | 100% |
+| Sprint 5 | 18 | 18 | 18 | 100% |
+| Sprint 6 | 20 | 20 | 20 | 100% |
+| **Total** | **135** | **135** | **135** | **100%** |
+
+### 6.2 Interpretação dos resultados
+
+A Sprint 1 apresentou a maior velocity, com 45 Story Points concluídos. Nas Sprints seguintes, a quantidade de pontos planejados ficou entre 16 e 20, e todas as histórias também foram concluídas.
+
+Todas as seis Sprints apresentaram 100% de conclusão do trabalho planejado, indicando que a equipe conseguiu finalizar as atividades previstas em cada ciclo.
+
+A diferença entre a velocity da primeira Sprint e das demais está relacionada principalmente à quantidade e à complexidade das histórias selecionadas. Por isso, a comparação deve considerar também o planejamento e o tamanho das atividades, não apenas o número de pontos.
+
+Considerando as seis Sprints, foram planejados e concluídos 135 Story Points, correspondendo a 100% do total.
+
+A média de velocity das seis Sprints foi de 22,5 Story Points.
+
+## 7. Análise dos gráficos de Burndown
+
+Os gráficos de Burndown permitem visualizar a redução dos pontos restantes conforme as histórias são concluídas.
+
+### 7.1 Sprint 1
+
+| Momento | Pontos restantes |
 |---|---:|
-| Sprint 1 | A preencher |
-| Sprint 2 | A preencher |
-
-A comparação entre as Sprints permitirá observar possíveis variações na produtividade da equipe. Uma variação na velocity pode estar relacionada a mudanças no planejamento, dificuldades técnicas, problemas identificados durante o desenvolvimento ou diferenças na complexidade das histórias selecionadas.
-
-A velocity deve ser utilizada como uma métrica de acompanhamento e planejamento, e não como uma comparação individual entre os integrantes.
-
-## 4. Análise dos Gráficos de Burndown
-
-O gráfico de burndown permite acompanhar a quantidade de trabalho restante durante uma Sprint, comparando a evolução real das atividades com o progresso esperado.
-
-Por meio desse gráfico, é possível observar se as tarefas estão sendo concluídas de maneira contínua ou se existem períodos em que o desenvolvimento apresenta pouca evolução.
-
-### 4.1 Burndown da Sprint 1
+| Início da Sprint | 45 |
+| US07 concluída | 25 |
+| US08 concluída | 5 |
+| US09 e US10 concluídas | 0 |
+| Final da Sprint | 0 |
 
 **Gráfico:**
 
-![Burndown da Sprint 1](imagens/burndown-sprint-1.png)
-
-**Análise:**
-
-A análise do burndown da Sprint 1 deverá considerar a evolução dos Story Points restantes durante o período de desenvolvimento. A comparação entre a linha planejada e a linha real permitirá identificar possíveis atrasos, períodos de pouca evolução e diferenças entre o ritmo esperado e o realizado.
-
-**Resultado observado:** A preencher após a análise do gráfico.
-
-### 4.2 Burndown da Sprint 2
-
-**Gráfico:**
-
-![Burndown da Sprint 2](imagens/burndown-sprint-2.png)
-
-**Análise:**
-
-O burndown da Sprint 2 será utilizado para verificar a evolução do trabalho restante e comparar o comportamento da equipe com o observado na Sprint anterior.
-
-A comparação entre os gráficos permitirá identificar se as dificuldades anteriores foram reduzidas e se houve melhoria na distribuição e conclusão das atividades.
-
-**Resultado observado:** A preencher após a análise do gráfico.
-
-## 5. Análise do Desempenho
-
-A análise do desempenho considera a relação entre o planejamento das Sprints e os resultados alcançados pela equipe.
-
-O acompanhamento das tarefas pelo GitHub Projects permite visualizar o andamento das histórias de usuário e identificar atividades que permanecem pendentes ou que apresentam dificuldades durante o desenvolvimento.
-
-A comparação entre os Story Points planejados e concluídos também permite avaliar se o planejamento está adequado à capacidade de execução da equipe.
-
-Outro aspecto importante é a evolução dos requisitos durante o projeto. A identificação de problemas e a necessidade de alterações demonstram a importância de manter o backlog atualizado e preservar a rastreabilidade das atividades.
-
-Com os dados das Sprints, será possível avaliar se o processo de desenvolvimento apresentou evolução e se as melhorias adotadas contribuíram para uma execução mais organizada.
-
-## 6. Gargalos Identificados
-
-Durante o desenvolvimento do Greenmify, foi identificado o BUG01, relacionado ao cadastro de produtos e equipamentos agrícolas.
-
-Esse problema afetou duas histórias de usuário:
-
-- **US07:** Cadastrar produtos agrícolas.
-- **US08:** Cadastrar equipamentos agrícolas.
-
-A identificação do problema demonstrou a necessidade de revisar as funcionalidades de cadastro e avaliar seus impactos no desenvolvimento.
-
-Outro ponto de atenção é a necessidade de acompanhar continuamente as tarefas no quadro Kanban, evitando que atividades permaneçam sem atualização de status e dificultem a visualização do andamento da Sprint.
-
-Os principais pontos que devem ser observados na análise dos registros são:
-
-- Problemas técnicos que dificultaram a conclusão de histórias.
-- Tarefas que permaneceram por muito tempo em desenvolvimento.
-- Diferenças entre os Story Points planejados e concluídos.
-- Atividades que precisaram ser adiadas para outra Sprint.
-- Problemas de comunicação ou distribuição das atividades, caso identificados nos registros.
-
-A identificação das causas dos gargalos deve considerar os acontecimentos registrados durante o desenvolvimento, evitando atribuir problemas à equipe sem evidências.
-
-## 7. Melhorias Aplicadas ao Processo
-
-A partir dos problemas identificados, foram registradas ações para melhorar o desenvolvimento e a organização do projeto.
-
-Uma das principais ações foi o registro da MUD01, relacionada às histórias US07 e US08 e ao BUG01.
-
-A mudança propõe unificar o processo de cadastro de produtos e equipamentos agrícolas, mantendo os campos específicos de cada tipo e adicionando o campo Unidade de medida ao cadastro de produtos.
-
-Também foram definidas as seguintes ações de melhoria:
-
-- Manter o quadro Kanban atualizado durante o desenvolvimento.
-- Acompanhar o andamento das histórias de usuário.
-- Registrar e relacionar problemas às funcionalidades afetadas.
-- Atualizar os critérios de aceitação quando houver mudanças nos requisitos.
-- Preservar a rastreabilidade entre histórias, bugs e mudanças.
-- Acompanhar os Story Points planejados e concluídos em cada Sprint.
-
-A MUD01 foi registrada com status `To Do`, com implementação prevista para a próxima Sprint. Portanto, sua execução deverá ser acompanhada para avaliar posteriormente os resultados da mudança.
-
-## 8. Análise do Impacto das Melhorias
-
-As melhorias registradas buscam reduzir dificuldades relacionadas à organização das tarefas, ao acompanhamento dos requisitos e à identificação de problemas durante o desenvolvimento.
-
-A atualização do quadro Kanban permite melhorar a visualização do fluxo de trabalho, enquanto o acompanhamento das métricas ajuda a identificar diferenças entre o planejamento e a execução.
-
-A MUD01 também representa uma ação de melhoria relacionada ao BUG01, pois propõe reorganizar o processo de cadastro e corrigir o problema identificado.
-
-O impacto dessas melhorias deverá ser avaliado nas Sprints seguintes, considerando:
-
-- A redução de problemas relacionados ao cadastro.
-- A conclusão das histórias dentro do planejamento.
-- A diminuição de tarefas pendentes.
-- A evolução da velocity.
-- A melhoria no acompanhamento do trabalho restante.
-- A maior organização e rastreabilidade dos requisitos.
-
-Como a implementação da MUD01 está prevista para a próxima Sprint, seus resultados ainda deverão ser acompanhados antes de afirmar que o problema foi solucionado.
-
-## 9. Relatório de Qualidade do Processo
-
-A qualidade do processo de desenvolvimento do Greenmify está relacionada à organização do trabalho, ao acompanhamento das atividades e à capacidade da equipe de identificar e tratar problemas durante o projeto.
-
-A utilização do Product Backlog permitiu organizar as funcionalidades em épicos e histórias de usuário, facilitando a identificação dos requisitos e a definição das prioridades.
-
-O quadro Kanban foi utilizado para acompanhar o andamento das atividades, permitindo visualizar as tarefas pendentes, em desenvolvimento e concluídas.
-
-O uso de Story Points possibilita estimar o esforço das histórias e acompanhar a capacidade de entrega da equipe por meio da velocity. Já os gráficos de burndown permitem observar a evolução do trabalho restante durante as Sprints.
-
-A identificação do BUG01 e o registro da MUD01 demonstram a importância do acompanhamento dos requisitos e do gerenciamento de mudanças durante o desenvolvimento.
-
-De maneira geral, o processo utiliza práticas que favorecem a organização e o acompanhamento do projeto. Entretanto, a avaliação completa da qualidade depende da análise dos dados reais de cada Sprint, especialmente da velocity, dos gráficos de burndown e das tarefas concluídas e pendentes.
-
-## 10. Conclusão
-
-A análise das métricas do Greenmify permite acompanhar o desempenho da equipe e avaliar a eficiência do processo de desenvolvimento ao longo das Sprints.
-
-A utilização de Story Points, velocity, gráficos de burndown e do quadro Kanban fornece informações importantes para comparar o planejamento com os resultados alcançados e identificar possíveis dificuldades durante a execução das atividades.
-
-A identificação do BUG01 e o registro da MUD01 demonstram a necessidade de acompanhar continuamente os requisitos e realizar ajustes quando problemas são encontrados.
-
-As melhorias propostas buscam tornar o processo mais organizado, facilitar o acompanhamento das tarefas e reduzir dificuldades durante o desenvolvimento.
-
-Com a consolidação dos dados das Sprints e a comparação dos resultados, será possível avaliar a evolução da equipe, verificar o impacto das melhorias e identificar oportunidades para aperfeiçoar o processo nas próximas etapas do Greenmify.
+```mermaid
+xychart-beta
+    x-axis ["Inicio", "US07", "US08", "US09 e US10", "Final"]
+    y-axis "Pontos restantes" 0 --> 45
+    line [45, 25, 5, 0, 0]
